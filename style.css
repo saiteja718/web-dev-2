@@ -1,0 +1,43 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features, .cta {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
